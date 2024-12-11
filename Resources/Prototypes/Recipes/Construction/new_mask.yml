@@ -1,0 +1,10 @@
+- type: construction
+  name: Unusual mask
+  id: NewMask
+  graph: newMask
+  startNode: start
+  targetNode: newmask
+  category: construction-category-clothing
+  description: the recipe for creating an unusual mask.
+  icon: { sprite: Clothing/Mask/custom_mask.rsi, state: icon }
+  objectType: Item

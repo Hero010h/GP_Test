@@ -1,17 +1,17 @@
-﻿- type: constructionGraph
-  id: BananiumHorn
+- type: constructionGraph
+  id: newMask
   start: start
   graph:
     - node: start
       edges:
-        - to: bananiumHorn
+        - to: newmask
           steps:
-            - tag: Pipe
-              name: pipe
+            - tag: JoyMask
+              name: joy mask
               icon:
-                sprite: Structures/Piping/Atmospherics/pipe.rsi
-                state: pipeStraight
-              doAfter: 2
+                sprite: Clothing/Mask/joy.rsi
+                state: icon
+              doAfter: 1
             - material: Steel
               amount: 4
               doAfter: 1
@@ -21,5 +21,5 @@
                 sprite: Objects/Fun/bikehorn.rsi
                 state: icon
               doAfter: 1
-    - node: bananiumHorn
-      entity: BananiumHorn
+    - node: newmask
+      entity: CustomMaskForGPTest

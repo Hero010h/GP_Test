@@ -739,6 +739,9 @@
 
 - type: Tag
   id: JawsOfLife
+ 
+- type: Tag
+  id: JoyMask
 
 - type: Tag
   id: Kangaroo

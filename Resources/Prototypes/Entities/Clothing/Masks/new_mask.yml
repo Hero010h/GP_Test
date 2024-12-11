@@ -1,0 +1,22 @@
+- type: entity
+  parent: [ClothingMaskGas]
+  id: CustomMaskForGPTest
+  name: маска шрека
+  description: Где-то я уже видел это лицо...
+  components:
+  - type: Sprite
+    sprite: Clothing/Mask/custom_mask.rsi
+  - type: Clothing
+    sprite: Clothing/Mask/custom_mask.rsi
+  - type: FlashImmunity
+  - type: EyeProtection
+  - type: Armor
+    modifiers:
+      coefficients:
+        Blunt: 0.5
+        Slash: 0.5
+        Piercing: 0.5
+        Heat: 0.5
+  - type: Construction
+    graph: newMask
+    node: newmask

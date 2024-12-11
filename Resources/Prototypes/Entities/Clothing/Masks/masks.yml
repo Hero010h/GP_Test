@@ -263,6 +263,9 @@
   - type: HideLayerClothing
     slots:
     - Snout
+  - type: Tag
+    tags:
+      - JoyMask
 
 - type: entity
   parent: ClothingMaskBase
