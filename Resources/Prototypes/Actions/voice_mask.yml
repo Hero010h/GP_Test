@@ -1,0 +1,12 @@
+- type: entity
+  id: ActionSwitchVoiceMask
+  name: Переключить голосовую маску
+  description: Включает и выключает голосовую маску и... и всё...
+  components:
+  - type: InstantAction
+    icon:
+      sprite: Interface/Actions/voice-mask.rsi
+      state: icon
+    event: !type:MaskSwitchingEvent
+    useDelay: 0.5
+
